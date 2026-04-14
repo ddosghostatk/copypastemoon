@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CopyPasteMoon ($CPM) - Official Site</title>
+    
+    <!-- Social Media Meta Tags -->
+    <meta name="description" content="The Moon Reboot: Why invent the wheel when you can just Copy & Paste it?">
+    <meta property="og:title" content="CopyPasteMoon ($CPM) - Solana">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Apollo mission is done. Now it's our turn with Ctrl+C and Ctrl+V on Solana.">
+    <meta property="og:image" content="logo.png"> 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ddosghostatk">
+
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #33ff33;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            border: 1px solid #33ff33;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(51, 255, 51, 0.2);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 1px solid #33ff33;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            max-width: 180px;
+            filter: grayscale(1) brightness(1.5);
+            margin-bottom: 15px;
+        }
+
+        h1, h2 { text-transform: uppercase; letter-spacing: 2px; }
+
+        .highlight {
+            background-color: #33ff33;
+            color: #0d0d0d;
+            padding: 2px 5px;
+            font-weight: bold;
+        }
+
+        .cta-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .cta-button {
+            background-color: #33ff33;
+            color: #0d0d0d;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .cta-button:hover { background-color: #ffffff; color: #000; }
+
+        .ca-box {
+            border: 1px dashed #33ff33;
+            padding: 15px;
+            margin: 20px 0;
+            word-break: break-all;
+            cursor: pointer;
+            background: rgba(51, 255, 51, 0.05);
+            font-size: 0.85em;
+        }
+
+        section { margin-bottom: 40px; }
+
+        footer {
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 50px;
+            border-top: 1px solid #33ff33;
+            padding-top: 20px;
+        }
+
+        .social-group {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .social-link {
+            color: #33ff33;
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid #33ff33;
+            padding: 8px 15px;
+            transition: 0.3s;
+        }
+
+        .social-link:hover { background: #33ff33; color: #0d0d0d; }
+
+        .cursor {
+            display: inline-block;
+            width: 10px;
+            height: 20px;
+            background-color: #33ff33;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+
+        @media (max-width: 600px) {
+            .container { padding: 15px; }
+            .cta-button { width: 100%; text-align: center; }
+            .social-group { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="logo.png" alt="CopyPasteMoon Logo" class="logo" onerror="this.style.display='none'">
+        <h1>CopyPasteMoon ($CPM)</h1>
+        <p>"The Moon Reboot: Why invent the wheel when you can just Copy & Paste it?"</p>
+        
+        <div class="ca-box" onclick="copyCA()">
+            CONTRACT ADDRESS (CA): <br>
+            <span id="ca-text">cgw2CE19qusd1RzpxYQMmKd2RYUDbTZhQptA1qppump</span>
+            <p style="font-size: 0.7em; margin-top: 5px;">(Click to copy)</p>
+        </div>
+
+        <div class="cta-group">
+            <a href="https://jup.ag" target="_blank" class="cta-button">BUY $CPM</a>
+            <a href="https://dexscreener.com" target="_blank" class="cta-button" style="background: transparent; color: #33ff33; border: 1px solid #33ff33;">VIEW CHART</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>1. The Mission (The Reboot)</h2>
+        <p>Humanity spent billions to reach the Moon. At $CPM, we realized the obvious: we don't need new rockets. We just need <span class="highlight">Ctrl+C</span> on success and <span class="highlight">Ctrl+V</span> on Solana.</p>
+    </section>
+
+    <section>
+        <h2>2. Technology: Ctrl+V Algorithm</h2>
+        <ul>
+            <li><strong>Solana Speed:</strong> Faster than a keyboard shortcut.</li>
+            <li><strong>Zero Friction:</strong> 0% taxes, 100% efficiency.</li>
+            <li><strong>Proven:</strong> If it worked for Apollo 11, "Paste" will work for your portfolio.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. Tokenomics</h2>
+        <p>Ticker: <strong>$CPM</strong> | Supply: <strong>1B</strong> | Taxes: <strong>0%</strong></p>
+        <p>Liquidity: <strong>Burned</strong> | Network: <strong>Solana</strong></p>
+    </section>
+
+    <footer>
+        <div class="social-group">
+            <a href="https://x.com" target="_blank" class="social-link">[ TWITTER / X ]</a>
+            <a href="https://t.me" target="_blank" class="social-link">[ TELEGRAM ]</a>
+        </div>
+        <p>DISCLAIMER: $CPM is a memecoin with no intrinsic value. Invest only what you can afford to lose.</p>
+        <p>© 2024 CopyPasteMoon System Reboot <span class="cursor"></span></p>
+    </footer>
+</div>
+
+<script>
+    function copyCA() {
+        const text = document.getElementById("ca-text").innerText;
+        navigator.clipboard.writeText(text).then(() => {
+            const el = document.getElementById("ca-text");
+            const originalText = el.innerText;
+            el.innerText = "COPIED TO CLIPBOARD!";
+            setTimeout(() => { el.innerText = originalText; }, 2000);
+        });
+    }
+</script>
+
+</body>
+</html>
+
